@@ -15,7 +15,7 @@ Step10: Stop.
 */
 
 
-SOURCE CODE: 
+//SOURCE CODE: 
 import java.util.Scanner;  public class RemoveDuplicate {   
     class Node{           int data;           Node next;           public Node(int data) {               this.data = data;               this.next = null;   
         }   
