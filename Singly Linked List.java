@@ -1,3 +1,31 @@
+/*Experiment -1 
+ 
+   Write a java program to perform various operations in Singly Linked List. 
+ 
+AIM: 
+               Java program to perform various operations in Singly Linked List. 
+ 
+ALGORITHM: 
+Step 1: Start. 
+Step 2: Declare required header files. 
+Step 3: Create a structure of name node and declare structure variables. 
+Step 4: Create a class name linked list and declare required functions. 
+Step 5: Initialize start and end to null inside constructor. 
+Step 6: Create an object for class Singly Linked List. 
+Step 7: Display all operations on linked list using switch case and choose on operation from the user and call required function.  
+Step 8: Create node function by creating 2 variables link, data. Assign link as NULL and data as  "Zero" and return link and data to display the values of it. 
+Step 9: Define insertAtStart function by reading the elements to be inserted from the user and create 2 variables start and end and assign the values (nptr) to start, if start is equal to null else assign it to next of start and adjust pointers.  
+Step 10:Define insertAtEnd function by reading the elements to be Inserted at last from the user and create 2 variables and create new object and traverse the list until null and assign the  value to the end. 
+Step 11:Define  insertAtPos function by reading element to be inserted and its position from the user and create 3 variables and create new object and move the pointer to the required position and insert the node at that position. 
+Step 12:Define delete function by reading position of the value to be deleted and create two variables and read the position and delete the element at the position.  
+Step 13:Define check Empty function to check whether the given list is empty or not. 
+Step 14:Define getSize function and create size variable and return the size of the list. 
+Step 15:Define display funtion by creating a variable and point to the start and traverse it using while loop until it points to NULL and print value at each iteration. 
+Step 16:Stop 
+*/
+
+
+
 import java.util.Scanner;
  class Node{
  protected int data;
