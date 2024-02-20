@@ -15,7 +15,7 @@ Step10: Stop
 
 
 
-SOURCE CODE: 
+//SOURCE CODE: 
 import java.util.Scanner; public class ReverseList { class Node { int data; Node link; } public Node(int data) { this.data = data; this.link = null; 
 } } public Node head = null; public Node tail = null; public void create(int data) 
 { 
